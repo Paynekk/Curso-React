@@ -1,7 +1,14 @@
 import React from 'react'
 
-const Location = () => (
-<div><h1>Mexico</h1></div>
-);
+const Location = (/*props*/{city}) => (
+// destructuring
+// const city = props.city mientras tenga el mismo nombre  puede hacerse destructuring
+  /* const {city} = props */
+  <div>
+  <h1>{city}</h1>
+  </div>
+)
+    
+
 
 export default Location;
